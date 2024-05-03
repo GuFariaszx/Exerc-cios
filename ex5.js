@@ -9,6 +9,7 @@ let n3 = prompt("Digite o terceiro número:")
 
 if (n1 < n2 < n3) {
     console.log ("Está em Crescente")
-} else {
+} 
+else {
     console.log ("Não está em ordem Crescente")
 }
