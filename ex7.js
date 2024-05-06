@@ -8,22 +8,22 @@
 // Valor total da compra acima de R$ 200,00: desconto de 20%.
 // Exiba o valor final da compra com o desconto aplicado.
 
-let comp = prompt ("Digite o valor do produto que você deseja comprar:")
+let comp = parseFloat(prompt ("Digite o valor do produto que você deseja comprar:"))
 
 
-if (comp >= 100 && comp <= 200 ) {
+if (comp > 100 && comp <= 200 ) {
     let calculo = comp * 0.10
     let calculo2 = comp - calculo
     console.log("Foi descontado 10% do produto, assim , o valor final foi", calculo2)
 }
 
-if (comp > 200) {
+else if (comp > 200) {
     let calculo3 = comp * 0.20
     let calculo4 = comp - calculo3
     console.log("Foi descontado 20% do produto, assim, o valor final foi", calculo4)
 }
 
-if (comp < 100) {
+else if (comp <= 100) {
     console.log ("Valor final de seu produto foi", comp)
 }
 
