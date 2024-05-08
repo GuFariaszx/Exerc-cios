@@ -2,6 +2,7 @@
 // no console a contagem regressiva até 0.
 
 let reg = prompt("Informe um número: ")
+
 while (reg >= 0) {
     console.log(reg)
     reg--   

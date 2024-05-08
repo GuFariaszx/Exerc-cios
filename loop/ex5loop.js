@@ -1,14 +1,17 @@
 // 5. Imprimir os primeiros 10 números da sequência de Fibonacci.
 
-b = 1
-a = 0
-c = 0
+let fib1 = 0
+let fib2 = 1
 
-for(i = 1; i <= 10; i++) {
-   console.log(c)
+console.log("Os Primeiros 10 número da sequência de Fubonacci são: ")
+console.log (fib1)
+console.log(fib2)
 
-   c = a + b
-   b = a
-   a = c
+for(let n = 2; n < 10; n++) {
+   let nextFib = fib1 + fib2
 
+   console.log(nextFib)
+
+   fib1 = fib2
+   fib2 = nextFib
 }

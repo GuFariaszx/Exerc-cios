@@ -6,14 +6,8 @@
 let idade = 0
 
 
-while(idade < 18 || isNaN(idade)) { 
-    idade = parseInt(prompt("Digite sua idade: "))
-    if(isNaN(idade) == false &&idade >= 0 && idade <18) {
-        console.log("Você é menor de idade!")
-    } else if(isNaN(idade)) {
-        console.log("é necessário infomrar um número positivo!")
-    }
-        
+while(idade < 18 ) { 
+    idade = parseInt(prompt("Digite sua idade: "))       
 }
 
 console.log("Você é maior de idade...")
