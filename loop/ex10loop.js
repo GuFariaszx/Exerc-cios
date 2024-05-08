@@ -3,7 +3,7 @@
 
 let dif = 1
 
-while (dif != 0) {
+while (dif != 0 ) {    
     dif = parseInt(prompt("Informe um número: "))
 }
 
