@@ -10,4 +10,4 @@ while(idade < 18 ) {
     idade = parseInt(prompt("Digite sua idade: "))       
 }
 
-console.log("Você é maior de idade...")
+console.log("Você é maior de idade... Sua idade é: " + idade)
