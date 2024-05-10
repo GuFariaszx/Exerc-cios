@@ -9,5 +9,5 @@ let password = prompt("Digite a senha:")
 if (username == "admin" && password == "senha123") {
     console.log("Login bem sucedido");
 } else {
-    console.log("Você não tem permissão de acesso!")
+    console.log("Você não tem permissão de acessar!")
 }
