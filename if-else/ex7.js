@@ -14,7 +14,7 @@ let comp = parseFloat(prompt ("Digite o valor do produto que você deseja compra
 if (comp > 100 && comp <= 200 ) {
     let calculo = comp * 0.10
     let calculo2 = comp - calculo
-    console.log("Foi descontado 10% do produto, assim , o valor final foi", calculo2)
+    console.log("Foi descontado 10% do produto, assim, o valor final foi", calculo2)
 }
 
 else if (comp > 200) {
