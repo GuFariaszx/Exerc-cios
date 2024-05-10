@@ -21,7 +21,7 @@ if ( imc < 18.5) {
 }
 
 else if (imc >= 18.5 && imc <=24.9) {
-    console.log("Peso normal")
+    console.log("Seu Peso é normal")
 }
 
 else if (imc >= 25 && imc <=29.9) {
