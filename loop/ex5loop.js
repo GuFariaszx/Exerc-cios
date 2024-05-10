@@ -3,7 +3,7 @@
 let fib1 = 0
 let fib2 = 1
 
-console.log("Os Primeiros 10 número da sequência de Fubonacci são: ")
+console.log("Os Primeiros 10 número da sequência de Fibonacci são: ")
 console.log (fib1)
 console.log(fib2)
 
