@@ -4,7 +4,7 @@
 let dif = 1
 
 while (dif != 0 ) {    
-    dif = parseInt(prompt("Informe um número: "))
+    dif = parseInt(prompt("Informe um número:\nDigite 0 para sair; "))
 }
 
 console.log("Boaaaa, Você Acertouu!!")
