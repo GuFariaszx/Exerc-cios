@@ -5,7 +5,7 @@
 let ParouImpar = prompt ("Digite um número:") 
 
 if (ParouImpar % 2 === 0) {
-console.log("Par")
+console.log("Seu número é par!")
 } else {
-console.log ("Impar")
+console.log ("Seu número é ímpar!!")
 }
