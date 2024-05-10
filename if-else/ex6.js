@@ -7,8 +7,8 @@ let year = prompt("Digite seu ano de nascimento:")
 let calc1 = 2024 - year
 
 if ( calc1 >= 18 ) {
-    console.log ("Você é maior de Idade!")
+    console.log ("Você é maior de Idade, Sua idade é " + calc1)
 } 
 else {
-    console.log ("Você não é maior de Idade!")
+    console.log ("Você não é maior de Idade, Sua idade é " + calc1)
 }
