@@ -8,7 +8,7 @@ let n2 = prompt("Digite o segundo número:")
 let n3 = prompt("Digite o terceiro número:")
 
 if (n1 < n2 < n3) {
-    console.log ("Está em Crescente")
+    console.log ("Está em ordem Crescente")
 } 
 else {
     console.log ("Não está em ordem Crescente")
