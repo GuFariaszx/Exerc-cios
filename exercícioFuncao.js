@@ -81,7 +81,7 @@ function idade() {
 
 let opcao = 1;
 while (opcao != 0) {
-    opcao = parseInt(prompt("Escolha uma opção ou Digite 0 para sair: \n1 - Exercício Contagem Regressiva;\n2 - Exercício Repetição;\n3 - Exercício contagem apenas com números pares de 1 a 100;\n4 - Exercício de Contagem com números de Fibonacci;\n5- Exercício de tabuada;\n6 - Exercício de detectar se é maior de idade;"))
+    opcao = parseInt(prompt("Escolha uma opção ou Digite 0 para sair: \n\n1 - Exercício Contagem Regressiva;\n2 - Exercício Repetição;\n3 - Exercício contagem apenas com números pares de 1 a 100;\n4 - Exercício de Contagem com números de Fibonacci;\n5- Exercício de tabuada;\n6 - Exercício de detectar se é maior de idade;"))
 
     switch (opcao) {
         case 1:
