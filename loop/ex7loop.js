@@ -2,9 +2,9 @@
 // while.
 
 let num = 0
-let r = 0
+let soma = 0
 
 while (num <= 100) {
-    r += num++
+    soma += num++
 }
-console.log(r)
+console.log(soma)
