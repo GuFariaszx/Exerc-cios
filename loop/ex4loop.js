@@ -16,5 +16,5 @@ if (tab >= 1 && tab <= 10) {
 }
 
 else {
-    alert("é necessário informar um número de 1 a 10!")
+    alert("é necessário informar um número entre 1 a 10!")
 }
